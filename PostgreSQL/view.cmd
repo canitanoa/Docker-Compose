@@ -1,0 +1,2 @@
+call docker ps
+pause

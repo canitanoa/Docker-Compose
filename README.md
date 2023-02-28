@@ -6,22 +6,24 @@ git init
 git add .
 git commit -m "first commit"
 git remote add origin https://github.com/canitanoa/Docker-Compose.git
-git push -u origin master
+git push -u origin main
 ```
 
 ### Prerequisits 
 
 ```txt
 1. Install Docker Desktop
-2. Into the dirs there are the diferent manifest to be contenerized in Docker 
+2. (Optional) ItelliJ 
+    - Plugin: Docker -> To run the manifest with te IDe
+3. Into the dirs there are the diferent manifest to be contenerized in Docker 
 
 	Commands:
-	- To run: 
-	$ docker-compose -f manifest-example.yml up -d
+	- To RUN: 
+	    $ docker-compose -f manifest-example.yml up -d
 	- To verify the containers:
-	$ docker ps
+	    $ docker ps
 	- To stop the container:
-	$ docker stop name_container
+	    $ docker stop name_container
 
 ```
 
