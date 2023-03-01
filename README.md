@@ -16,14 +16,15 @@ git push -u origin main
 2. (Optional) ItelliJ 
     - Plugin: Docker -> To run the manifest with te IDe
 3. Into the dirs there are the diferent manifest to be contenerized in Docker 
-
-	Commands:
-	- To RUN: 
-	    $ docker-compose -f manifest-example.yml up -d
-	- To verify the containers:
-	    $ docker ps
-	- To stop the container:
-	    $ docker stop name_container
-
 ```
+### Commands
+```txt
+- To RUN: 
+    $ docker-compose -f manifest-example.yml up -d
+- To VERIFY the containers:
+    $ docker ps
+- To STOP the container:
+    $ docker stop name_container
+```
+
 
