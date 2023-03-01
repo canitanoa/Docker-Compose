@@ -7,4 +7,4 @@
 
 - To configure the conection see:
 ```
-<img src="https://github.com/canitanoa/Docker-Compose/blob/main/PostgreSQL/DBeaver_config.png?raw=true" width="400">
+<img src="https://github.com/canitanoa/Docker-Compose/blob/main/PostgreSQL/DBeaver_config.png?raw=true" width="500">
